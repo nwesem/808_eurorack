@@ -21,11 +21,39 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_CP_Small
+# eurocad_PIN_HEADER_2x8
 #
-DEF device_CP_Small C 0 10 N N 1 F N
+DEF eurocad_PIN_HEADER_2x8 H 0 40 Y Y 1 F N
+F0 "H" 0 -450 60 H V C CNN
+F1 "eurocad_PIN_HEADER_2x8" 0 450 60 H V C CNN
+F2 "" 100 150 60 H V C CNN
+F3 "" 100 150 60 H V C CNN
+DRAW
+S -150 400 150 -400 0 1 0 f
+X 1 1 -350 350 200 R 50 50 1 1 B
+X 10 10 350 -50 200 L 50 50 1 1 B
+X 11 11 -350 -150 200 R 50 50 1 1 B
+X 12 12 350 -150 200 L 50 50 1 1 B
+X 13 13 -350 -250 200 R 50 50 1 1 B
+X 14 14 350 -250 200 L 50 50 1 1 B
+X 15 15 -350 -350 200 R 50 50 1 1 B
+X 16 16 350 -350 200 L 50 50 1 1 B
+X 2 2 350 350 200 L 50 50 1 1 B
+X 3 3 -350 250 200 R 50 50 1 1 B
+X 4 4 350 250 200 L 50 50 1 1 B
+X 5 5 -350 150 200 R 50 50 1 1 B
+X 6 6 350 150 200 L 50 50 1 1 B
+X 7 7 -350 50 200 R 50 50 1 1 B
+X 8 8 350 50 200 L 50 50 1 1 B
+X 9 9 -350 -50 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# kick-rescue_CP_Small-device
+#
+DEF kick-rescue_CP_Small-device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device_CP_Small" 10 -80 50 H V L CNN
+F1 "kick-rescue_CP_Small-device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -41,11 +69,11 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_C_Small
+# kick-rescue_C_Small-device
 #
-DEF device_C_Small C 0 10 N N 1 F N
+DEF kick-rescue_C_Small-device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device_C_Small" 10 -80 50 H V L CNN
+F1 "kick-rescue_C_Small-device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +87,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_D
+# kick-rescue_D-device
 #
-DEF device_D D 0 40 N N 1 F N
+DEF kick-rescue_D-device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device_D" 0 -100 50 H V C CNN
+F1 "kick-rescue_D-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -81,11 +109,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_Opamp_Dual_Generic
+# kick-rescue_Opamp_Dual_Generic-device
 #
-DEF device_Opamp_Dual_Generic U 0 20 Y Y 3 F N
+DEF kick-rescue_Opamp_Dual_Generic-device U 0 20 Y Y 3 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "device_Opamp_Dual_Generic" 0 -200 50 H V L CNN
+F1 "kick-rescue_Opamp_Dual_Generic-device" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -111,11 +139,11 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# device_Q_NPN_BCE
+# kick-rescue_Q_NPN_BCE-device
 #
-DEF device_Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF kick-rescue_Q_NPN_BCE-device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device_Q_NPN_BCE" 200 -50 50 H V L CNN
+F1 "kick-rescue_Q_NPN_BCE-device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -130,11 +158,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_Q_PNP_BCE
+# kick-rescue_Q_PNP_BCE-device
 #
-DEF device_Q_PNP_BCE Q 0 0 Y N 1 F N
+DEF kick-rescue_Q_PNP_BCE-device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device_Q_PNP_BCE" 200 -50 50 H V L CNN
+F1 "kick-rescue_Q_PNP_BCE-device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -149,11 +177,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_R_POT
+# kick-rescue_R_POT-device
 #
-DEF device_R_POT RV 0 40 Y N 1 F N
+DEF kick-rescue_R_POT-device RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "device_R_POT" -100 0 50 V V C CNN
+F1 "kick-rescue_R_POT-device" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -169,11 +197,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_R_Small
+# kick-rescue_R_Small-device
 #
-DEF device_R_Small R 0 10 N N 1 F N
+DEF kick-rescue_R_Small-device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "device_R_Small" 30 -40 50 H V L CNN
+F1 "kick-rescue_R_Small-device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -183,28 +211,6 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# eurocad_EURO_PWR_2x5
-#
-DEF eurocad_EURO_PWR_2x5 J 0 40 Y Y 1 F N
-F0 "J" 0 -300 60 H V C CNN
-F1 "eurocad_EURO_PWR_2x5" 0 300 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -250 250 250 -250 0 1 0 f
-X +12V 1 -450 200 200 R 50 50 1 1 W
-X -12V 10 450 -200 200 L 50 50 1 1 W
-X +12V 2 450 200 200 L 50 50 1 1 W
-X GND 3 -450 100 200 R 50 50 1 1 W
-X GND 4 450 100 200 L 50 50 1 1 W
-X GND 5 -450 0 200 R 50 50 1 1 W
-X GND 6 450 0 200 L 50 50 1 1 W
-X GND 7 -450 -100 200 R 50 50 1 1 W
-X GND 8 450 -100 200 L 50 50 1 1 W
-X -12V 9 -450 -200 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
